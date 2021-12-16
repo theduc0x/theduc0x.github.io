@@ -1,0 +1,96 @@
+/* Tablet and Mobile */
+@media (max-width:1023px) {
+    .place-buy-btn {
+        padding: 14px 16px;
+    }
+    .contact-form2 .form-control {
+        padding: 15px;
+    }
+    .contact-form1 {
+        line-height: 2;
+    }
+}
+
+
+/* Mobile */
+@media (max-width:740px) {
+    .s-full-width {
+        width: 100% !important;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+        width: 100%;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    
+    #nav .subnav a {
+        color: aliceblue;
+        padding: 5px 46px;
+    }
+
+    #content .member-list {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+    #content .member-img {
+        width: 60%;
+    }
+
+    #content .member-item {
+        padding-top: 30px;
+    }
+
+    #content .places-list {
+        flex-direction: column;
+    }
+
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .contact-form1 {
+        width: 100%;
+    }
+
+    .contact-form2 {
+        width: 100%;
+    }
+    .row1-contact {
+        flex-direction: column;
+        
+    }
+    .form-control {
+        margin-top: 16px;
+    }
+
+    .form-submit-btn {
+        margin-right: 0;
+        
+    }
+}
+
+/* Tablet */
